@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InvoicePeru.Presentation", "InvoicePeru.Presentation", "{33F9CAD6-FEA2-4884-BFF3-8390C3756248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicePeru.Application", "InvoicePeru.Application\InvoicePeru.Application.csproj", "{56C54C8E-B9D1-4561-99F1-4640EBC43E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicePeru.Domain", "InvoicePeru.Domain\InvoicePeru.Domain.csproj", "{7F0DA393-C391-4E60-AF42-4B21D9F92D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicePeru.Infrastructure", "InvoicePeru.Infrastructure\InvoicePeru.Infrastructure.csproj", "{4FB08F25-C017-4FBE-B9EE-005E7E7FBB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicePeru.Contracts", "InvoicePeru.Contracts\InvoicePeru.Contracts.csproj", "{60090816-8CFD-453F-8E36-FD6BE61A91BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicePeru.WebApi", "InvoicePeru.WebApi\InvoicePeru.WebApi.csproj", "{97571DA5-F573-4BD9-B51E-F40DD4918F14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C54C8E-B9D1-4561-99F1-4640EBC43E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C54C8E-B9D1-4561-99F1-4640EBC43E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C54C8E-B9D1-4561-99F1-4640EBC43E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C54C8E-B9D1-4561-99F1-4640EBC43E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0DA393-C391-4E60-AF42-4B21D9F92D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0DA393-C391-4E60-AF42-4B21D9F92D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0DA393-C391-4E60-AF42-4B21D9F92D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0DA393-C391-4E60-AF42-4B21D9F92D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB08F25-C017-4FBE-B9EE-005E7E7FBB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB08F25-C017-4FBE-B9EE-005E7E7FBB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB08F25-C017-4FBE-B9EE-005E7E7FBB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB08F25-C017-4FBE-B9EE-005E7E7FBB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60090816-8CFD-453F-8E36-FD6BE61A91BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60090816-8CFD-453F-8E36-FD6BE61A91BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60090816-8CFD-453F-8E36-FD6BE61A91BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60090816-8CFD-453F-8E36-FD6BE61A91BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97571DA5-F573-4BD9-B51E-F40DD4918F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97571DA5-F573-4BD9-B51E-F40DD4918F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97571DA5-F573-4BD9-B51E-F40DD4918F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97571DA5-F573-4BD9-B51E-F40DD4918F14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60090816-8CFD-453F-8E36-FD6BE61A91BE} = {33F9CAD6-FEA2-4884-BFF3-8390C3756248}
+		{97571DA5-F573-4BD9-B51E-F40DD4918F14} = {33F9CAD6-FEA2-4884-BFF3-8390C3756248}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C3C5766-BA4B-442E-85C4-CFDD444DF3E9}
+	EndGlobalSection
+EndGlobal
